@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forest Tree Census</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div class="container">
+
+		<h1 class="formclass">FOREST TREE CENSUS&#127794;</h1>
+
+		<form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" />
+        <label class="form-label" for="form6Example1">Survey ID</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control" />
+        <label class="form-label" for="form6Example2">Full Name</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example3" class="form-control" />
+    <label class="form-label" for="form6Example3">Tree Type</label>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example4" class="form-control" />
+    <label class="form-label" for="form6Example4">Name Of the Tree</label>
+  </div>
+
+  <div class="form-outline mb-4">
+ 
+  <div class="col-10">
+    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+     <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time : Survey</label>
+  </div>
+</div>
+<div id="result" class="form-outline mb-4">
+        <!--Position information will be inserted here-->
+    	</div>
+    	<button type="button" onclick="showPosition();" class="btn btn-danger btn-block mb-4">GPS Location: </button>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="form6Example5" class="form-control" />
+    <label class="form-label" for="form6Example5">Measurements diameter(in m): </label>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="form6Example6" class="form-control" />
+    <label class="form-label" for="form6Example6">Measurements height(in m):</label>
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+    <label class="form-label" for="form6Example7">Additional information- measurements</label>
+  </div>
+
+ 
+  
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">SUBMIT SURVEY</button>
+</form>
+
+
+		
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+	background: url(tree.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container{
+	width: 55%;
+
+	color: white;
+	margin: auto;
+}
+
+.formclass{
+
+	background-color: black;
+
+}
